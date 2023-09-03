@@ -31,7 +31,7 @@ jobs:
           script: |
             cd /home/ubuntu/about-me/
             sudo git pull origin main
-            docker image build -t portfolio
+            docker build -t portfolio
             docker run -it -p 80:80 portfolio --rm -name portfolio
             
             
