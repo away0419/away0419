@@ -1,9 +1,10 @@
 FROM node:14.21.3
 WORKDIR /app
 COPY . .
-RUN sudo del package-lock.json
-RUN sudo npm install -g --cache npm@latest 
-RUN sudo npm run serve
+RUN del package-lock.json
+RUN rm -rf node_modules
+RUN npm install -g --cache npm@latest 
+RUN npm run serve
 
 
 # production stage
