@@ -1,7 +1,7 @@
 FROM node:14.21.3
 WORKDIR /app
 COPY package*.json ./
-RUN npm install -g npm@latest
+RUN npm install -g --cache npm@latest 
 COPY . .
 RUN npm run build
 
