@@ -10,6 +10,10 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v3
+
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 14.21.3
       
       - name: Install Dependencies
         run: npm install
@@ -25,5 +29,9 @@ jobs:
           key: ${{ secrets.REMOTE_SSH_KEY }}
           port: ${{ secrets.REMOTE_SSH_PORT }}
           script: |
+            cd /home/ubuntu/about-me/
+            sudo git pull origin main
+            docker image build -t portfolio
+            docker run -it -p 80:80 portfolio --rm -name portfolio
             
             
