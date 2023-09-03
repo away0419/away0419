@@ -2,6 +2,7 @@ FROM node:latest
 WORKDIR /app
 COPY package.json ./
 RUN npm i -g 
+RUN npm i @vue/cli
 COPY ./ .
 RUN npm run build
 
