@@ -1,8 +1,9 @@
 FROM node:14.21.3
 WORKDIR /app
 COPY package*.json ./
-RUN npm install -g --cache npm@latest 
 COPY . .
+RUN npm cache clean --force
+RUN npm install -g --cache npm@latest 
 RUN npm run build
 
 
