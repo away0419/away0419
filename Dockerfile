@@ -1,7 +1,7 @@
 FROM node:14.21.3
 WORKDIR /app
 COPY . .
-RUN del package-lock.json
+RUN rm package-lock.json
 RUN rm -rf node_modules
 RUN npm install -g --cache npm@latest 
 RUN npm run serve
