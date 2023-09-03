@@ -1,8 +1,8 @@
-FROM node:14.21.3
+FROM node:latest as build-stage
 WORKDIR /app
-COPY package.json .
-ADD . .
-RUN npm install -g --cache npm@9.8.1 
+COPY package*.json ./
+RUN npm install -g --cache 
+COPY ./ .
 RUN npm run serve
 
 # production stage
