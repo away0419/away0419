@@ -2,9 +2,8 @@ FROM node:14.21.3
 WORKDIR /app
 COPY package*.json ./
 COPY . .
-RUN npm cache clean --force
 RUN npm install -g --cache npm@latest 
-RUN npm run build
+RUN npm run serve
 
 
 # production stage
