@@ -1,9 +1,10 @@
-FROM node:latest
+FROM node:lts-alpine ad builder
+
 WORKDIR /app
-COPY package.json ./
-RUN npm i -g 
-RUN npm i -g @vue/cli
-COPY ./ .
+COPY package*.json ./
+RUN npm install
+
+COPY . .
 RUN npm run build
 
 # production stage
