@@ -1,7 +1,7 @@
 FROM node:latest as build-stage
 WORKDIR /app
 COPY package*.json ./
-RUN npm install -g --cache npm@9.8.1 
+RUN npm install -g --cache
 RUN npm i @vue/cli-service
 COPY ./ .
 RUN npm run serve
