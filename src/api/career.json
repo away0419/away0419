@@ -1,0 +1,129 @@
+{
+  "list": [
+    {
+      "no": 1,
+      "color": "#EEBFA5",
+      "logo": "career/ktds-logo.png",
+      "thumbnail": "career/ktds.jpg",
+      "career": true,
+      "title": "KT DS",
+      "start_date": 1672585200000,
+      "end_date": null,
+      "info": " kt그룹의 정보시스템 구축 기술과 노하우를 기반으로 고객의 가치를 실현하는 IT서비스 전문 기업입니다.",
+      "latLng": {
+        "lat": 37.502436,
+        "lng": 127.028157
+      },
+      "business": {
+        "text": "SI개발팀 / Full Stack",
+        "detail": [
+          {
+            "text": "라이나생명 대고객 디지털채널 재구축 프로젝트",
+            "info": "라이나생명 홈페이지 개발 및 서비스 제공",
+            "lang": "Java, Spring Boot, Postgresql, Nuxt.js",
+            "link": [
+              {
+                "state": "Portfolio",
+                "url": "https://about-ljk/portfolio/detail/1"
+              }
+            ]
+          }
+        ]
+      },
+      "resign": {
+        "status": false
+      }
+    },
+    {
+      "no": 2,
+      "color": "#302283",
+      "logo": "career/ssafy-logo.png",
+      "thumbnail": "career/ssafy.jpg",
+      "career": false,
+      "title": "삼성 청년 소프트웨어 아카데미 7기",
+      "start_date": 1642431600000,
+      "end_date": 1671721200000,
+      "info": "삼성에서 주관하는 아카데미로 1년 동안 소프트웨어 역량 향상 교육 및 다양한 프로그램을 통해 개발자를 육성합니다.",
+      "latLng": {
+        "lat": 37.484971,
+        "lng": 127.125964
+      },
+      "business": {
+        "text": "팀장 / Back-End / Server / 기획서 및 산출물 작성 / 디자인 작업 ",
+        "detail": [
+          {
+            "text": "Beanzido",
+            "info": "근처 사람들과 대화할 수 있는 지역 기반 실시간 채팅 서비스",
+            "lang": "Java, Spring-Boot, JPA, Fast-API, Redis, MySQL, RabbitMQ, Grafana, Prometheus, AWS, Jenkins, Docker, Nginx, Git, Vue",
+            "link": [
+              {
+                "state": "Portfolio",
+                "url": "https://about-ljk/portfolio/detail/2"
+              }
+            ]
+          },
+          {
+            "text": "달달하개",
+            "info": "반려견을 위한 맞춤 상품 추천과 정기 구독 서비스",
+            "lang": "Java, Spring-Boot, Spring-Cloud, JPA, Selenium, Fast-API, Jenkins, Docker, AWS, Git, Nginx, MySQL, Redis, React",
+            "link": [
+              {
+                "state": "Portfolio",
+                "url": "https://about-ljk/portfolio/detail/3"
+              }
+            ]
+          },
+          {
+            "text": "봄날의 햇살",
+            "info": "상담사와 자폐 아동을 연결해주고 상담을 받을 수 있는 화상 상담 서비스",
+            "lang": "Java, Spring-Boot, JPA, Jenkins, Docker, AWS, Git, Nginx, MySQL, Vue",
+            "link": [
+              {
+                "state": "Portfolio",
+                "url": "https://about-ljk/portfolio/detail/4"
+              }
+            ]
+          }
+        ]
+      },
+      "resign": {
+        "status": false,
+        "reason": "퇴사사유"
+      }
+    },
+    {
+      "no": 3,
+      "color": "#242331",
+      "logo": "career/itwill-logo.png",
+      "thumbnail": "career/itwill.jpg",
+      "career": false,
+      "title": "IT WILL",
+      "start_date": 1615042800000,
+      "end_date": 1629903600000,
+      "info": "IT 분야의 국비지원 과정과 취업 컨설팅 서비스를 제공하는 기업입니다.",
+      "latLng": {
+        "lat": 37.517746,
+        "lng": 127.017902
+      },
+      "business": {
+        "text": "팀장 / Full-Stack / Server / 기획서 및 산출물 작성 / 디자인 작업",
+        "detail": [
+          {
+            "text": "IU",
+            "info": "기업에 필요한 기능을 제공하여 업무 효율을 높여주는 그룹웨어 서비스",
+            "lang": "Java, Spring-Boot, MyBatis, Oracle, Jquery, Jsp",
+            "link": [
+              {
+                "url": "https://about-ljk/portfolio/detail/5"
+              }
+            ]
+          }
+        ]
+      },
+      "resign": {
+        "status": false,
+        "reason": ""
+      }
+    }
+  ]
+}

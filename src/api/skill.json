@@ -1,0 +1,80 @@
+{
+    "back" : [
+        {
+          "no": 1,
+          "url":"skill/back/java.svg"
+        },
+        {
+          "no": 2,
+          "url":"skill/back/springboot.svg"
+        },
+        {
+          "no": 3,
+          "url":"skill/back/jpa.svg"
+        },
+        {
+          "no": 4,
+          "url":"skill/back/redis.svg"
+        },
+        {
+          "no": 5,
+          "url":"skill/back/mysql.svg"
+        },
+        {
+          "no": 6,
+          "url":"skill/back/python.svg"
+        }
+      ],
+      "front":[
+        {
+            "no": 1,
+            "url":"skill/front/js.svg"
+          },
+          {
+            "no": 2,
+            "url":"skill/front/css3.svg"
+          },
+          {
+            "no": 3,
+            "url":"skill/front/html.svg"
+          },
+          {
+            "no": 4,
+            "url":"skill/front/vuejs.svg"
+          },
+          {
+            "no": 5,
+            "url":"skill/front/react.svg"
+          },
+          {
+            "no": 6,
+            "url":"skill/front/jquery.svg"
+          }
+      ],
+      "etc":[
+        {
+            "no": 1,
+            "url":"skill/etc/aws.svg"
+          },
+          {
+            "no": 2,
+            "url":"skill/etc/docker.svg"
+          },
+          {
+            "no": 3,
+            "url":"skill/etc/git.svg"
+          },
+          {
+            "no": 4,
+            "url":"skill/etc/jenkins.svg"
+          },
+          {
+            "no": 5,
+            "url":"skill/etc/grafana.svg"
+          },
+          {
+            "no": 6,
+            "url":"skill/etc/rabbitmq.svg"
+          }
+      ]
+}

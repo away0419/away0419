@@ -1,0 +1,194 @@
+{
+  "list": [
+    {
+      "no": 1,
+      "thumbnail": "portfolio/lina.jpg",
+      "title": "라이나생명",
+      "start_date": 1676905200000,
+      "end_date": 1690729200000,
+      "type": [
+        {
+          "type_nm": "Front-End",
+          "part": 50
+        },
+        {
+          "type_nm": "Back-End",
+          "part": 50
+        }
+      ],
+      "skill": ["Java", "Spring-Boot", "Postgresql", "Vue"],
+      "career_no": 1,
+      "memo": "- [Admin, 사이버창구] 화면/API 개발, <br/>- [사이버창구] Logging 기능 개발",
+      "link": [
+        {
+          "url": "https://www.lina.co.kr/"
+        }
+      ]
+    },
+    {
+      "no": 2,
+      "thumbnail": "portfolio/beanzido.png",
+      "title": "Beanzido",
+      "start_date": 1665414000000,
+      "end_date": 1668697200000,
+      "type": [
+        {
+          "type_nm": "팀장",
+          "part": 0
+        },
+        {
+          "type_nm": "Back-End",
+          "part": 50
+        },
+        {
+          "type_nm": "서버 구성",
+          "part": 100
+        },
+        {
+          "type_nm": "기획 및 설계",
+          "part": 30
+        },
+        {
+          "type_nm": "산출물 작성",
+          "part": 50
+        }
+      ],
+      "skill": ["Java", "Spring-Boot", "JPA", "Fast-API", "Redis", "MySQL", "RabbitMQ", "Grafana","Prometheus", "AWS", "Jenkins", "Docker", "Nginx", "Git", "Vue"],
+      "career_no": 2,
+      "memo": "- WebSocket을 이용한 실시간 통신 <br/>- 이미지 AI 분석 후 부적절한 콘텐츠 필터링 <br/>- 보이어-무어 알고리즘을 이용한 비속어 필터링 </br>- 지역별 한국어, 영어 키워드 분석 후 랭킹 구현 <br/>- 로드 밸런싱 및 RabbitMQ로 메시지 공유 <br/>- Grafana, Prometheus로 서버 모니터링 시각화 <br/>- Jmeter 과부화 테스트 <br/>- Git Branch 별 자동 배포 <br/>- 개발 서버와 배포 서버 동시 운영 <br/>- MSA 구축",
+      "link": [
+        {
+          "url": "https://www.notioniframe.com/notion/2lac98xdr0t"
+        }
+      ]
+    },
+    {
+      "no": 3,
+      "thumbnail": "portfolio/daldal.png",
+      "title": "달달하개",
+      "start_date": 1661094000000,
+      "end_date": 1665068400000,
+      "type": [
+        {
+          "type_nm": "부팀장",
+          "part": 0
+        },
+        {
+          "type_nm": "Back-End",
+          "part": 40
+        },
+        {
+          "type_nm": "서버 구성",
+          "part": 100
+        },
+        {
+          "type_nm": "기획 및 설계",
+          "part": 30
+        },
+        {
+          "type_nm": "산출물 작성",
+          "part": 30
+        }
+      ],
+      "skill": ["Java", "Spring-Boot", "Spring-Cloud", "JPA", "Selenium", "Fast-API", "Jenkins", "Docker", "AWS", "Git", "Nginx", "MySQL", "Redis", "React"],
+      "career_no": 2,
+      "memo": "- Kakao API를 이용한 소셜 로그인 <br/>- JWT로 개인정보 관련 서비스 사용시 인증 <br/>- Selenium으로 상품, 리뷰 데티어 크롤링 <br/>- 수집 데이터 정제 및 입력 <br/>- 정기, 커스텀 구독 기능 구현 <br/>- 상품, 구독 리뷰 작성 및 조회 기능 구현 <br/>- Python 라이브러리를 이용한 협업 필터링 구현 <br/>- 콜드 스타트 해결을 위한 콘텐츠 필터링 구현 <br/>- Spring Cloud로 API Gateway를 구성하고 MSA 구축 <br/>- Jenkins를 이용한 자동 배포 <br/>- 자주 조회하는 칼럼 피티셔닝 및 캐싱",
+      "link": [
+        {
+          "url": "https://www.notioniframe.com/notion/1gdckyucdb"
+        }
+      ]
+    },
+    {
+      "no": 4,
+      "thumbnail": "portfolio/bomnal.png",
+      "title": "봄날의 햇살",
+      "start_date": 1656946800000,
+      "end_date": 1660834800000,
+      "type": [
+        {
+          "type_nm": "Back-End",
+          "part": 40
+        },
+        {
+          "type_nm": "서버 구성",
+          "part": 100
+        },
+        {
+          "type_nm": "기획 및 설계",
+          "part": 20
+        },
+        {
+          "type_nm": "산출물 작성",
+          "part": 20
+        }
+      ],
+      "skill": ["Java", "Spring-Boot", "JPA", "Jenkins", "Docker", "AWS", "Git", "Nginx", "MySQL", "Vue"],
+      "career_no": 2,
+      "memo": "- 회원 역할 별 회원 가입 <br/>- 아동 등록 및 수정 <br/>- 상담사 아동 1:1 상담 방 구현 <br/>- 문진표 확인 후 전문 상담사 추천 기능 구현 <br/>- 문진표 작성 <br/>- 자주 조회하는 정보 캐싱 <br/>- 상담 예약 및 관리 <br/>- 민감한 정보 테이블 분리 및 DB 설계 <br/>- 자동 배포 및 서버 구성",
+      "link": [
+        {
+          "url": "https://www.notioniframe.com/notion/178ikvba4n8"
+        }
+      ]
+    },
+    {
+      "no": 5,
+      "thumbnail": "portfolio/iu.png",
+      "title": "IU",
+      "start_date": 1625151600000,
+      "end_date": 1628780400000,
+      "type": [
+        {
+          "type_nm": "팀장",
+          "part": 0
+        },
+        {
+          "type_nm": "Front-End",
+          "part": 40
+        },
+        {
+          "type_nm": "Back-End",
+          "part": 40
+        },
+        {
+          "type_nm": "기획 및 설계",
+          "part": 30
+        },
+        {
+          "type_nm": "서버 구성",
+          "part": 100
+        }
+      ],
+      "skill": ["Java", "Spring-Boot", "MyBatis", "Oracle", "Jquery", "Jsp"],
+      "career_no": 3,
+      "memo": "- SMTP 이메일 인증 <br/>- FullCalendar 이용한 개인 일정 <br/>- 일정 그룹 체크 박스로 해당 그룹에 포한된 모든 일정 일괄 보임/숨김 구현 <br/>- Excel 업로드로 데이터 입력, 조회 기능 구현 <br/>- 출/퇴근 클릭 시 정보 저장 및 그래프로 시각화 <br/>- 스케줄러를 이용한 자동 퇴근 <br/>- AJAX 활용 <br/>- 관리자 페이지 구현",
+      "link": [
+        {
+          "url": "https://www.notioniframe.com/notion/2qun9u802yb"
+        }
+      ]
+    },
+    {
+      "no": 6,
+      "thumbnail": "portfolio/aboutljk.png",
+      "title": "About-LJK",
+      "start_date": 1692370800000,
+      "end_date": 1692975600000,
+      "type": [
+        {
+          "type_nm": "Front-End",
+          "part": 100
+        }
+      ],
+      "skill": ["Vue"],
+      "career_no": null,
+      "memo": "포트폴리오 페이지를 제작했습니다.",
+      "link": [
+        {
+          "url": "https://about-ljk.store/"
+        }
+      ]
+    }
+  ]
+}
