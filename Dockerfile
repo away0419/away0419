@@ -1,12 +1,14 @@
 FROM ubuntu:22.04
+
+RUN apt-get -qq update
+RUN apt-get -qq upgrade --yes
+RUN apt-get -qq install curl --yes
+RUN curl -sL https://deb.nodesource.com/setup_14.x | bash -
+RUN apt-get install nodejs --yes
+
 WORKDIR /app
 COPY package*.json ./
-
-RUN apt update
-RUN curl -sL https://deb.nodesource.com/setup_14.x | sudo -E bash -
-RUN apt install nodejs
 RUN npm install -g npm@9.8.1
-
 COPY . .
 RUN npm run build
 
