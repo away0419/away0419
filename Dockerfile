@@ -1,9 +1,9 @@
-FROM ubuntu:22.04
+FROM ubuntu:22.04 as build stage
 
-RUN apt update
-RUN apt install -y curl
+RUN apt-get -y update
+RUN apt-get install -y curl
 RUN curl -sL https://deb.nodesource.com/setup_14.x | bash -
-RUN apt install -y nodejs
+RUN apt-get install -y nodejs
 
 WORKDIR /app
 COPY package*.json ./
