@@ -1,13 +1,13 @@
 FROM ubuntu:22.04
 
-RUN apt-get update
-RUN apt-get install -y
+RUN apt update
+RUN apt install -y curl
 RUN curl -sL https://deb.nodesource.com/setup_14.x | bash -
-RUN apt-get install nodejs
+RUN apt install -y nodejs
 
 WORKDIR /app
 COPY package*.json ./
-RUN npm install -g npm@9.8.1
+RUN npm install npm@9.8.1
 COPY . .
 RUN npm run build
 
