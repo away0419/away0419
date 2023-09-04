@@ -31,7 +31,7 @@ jobs:
           script: |
             cd /home/ubuntu/about-me/
             sudo git pull origin main
-            docker build --no-cache -t portfolio:1.0 /home/ubuntu/about-me/
-            docker run -it -p 80:8080 portfolio --rm -name portfolio
+            docker build -t portfolio:1.0 /home/ubuntu/about-me/
+            docker run -i -p 80:8080 portfolio --rm -name portfolio
             
             
