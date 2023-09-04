@@ -1,13 +1,7 @@
-FROM ubuntu:22.04 as build-stage
-
-RUN apt -y update
-RUN apt install -y curl
-RUN curl -sL https://deb.nodesource.com/setup_14.x | bash -
-RUN apt install -y nodejs
-
+FROM node:14.21.3 as build-stage
 WORKDIR /app
 COPY package*.json ./
-RUN npm install npm@9.8.1
+RUN npm install 
 COPY . .
 RUN npm run build
 
