@@ -32,6 +32,6 @@ jobs:
             cd /home/ubuntu/about-me/
             sudo git pull origin main
             docker build -t portfolio:1.0 /home/ubuntu/about-me/
-            docker run -m 512m -i -p 80:8080 portfolio:1.0 --rm -name portfolio
+            docker run -m 512m -i -d -p 80:8080 --rm --name portfolio portfolio:1.0 
             
             
