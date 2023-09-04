@@ -1,10 +1,9 @@
 FROM ubuntu:22.04
 
-RUN apt-get -qq update
-RUN apt-get -qq upgrade --yes
-RUN apt-get -qq install curl --yes
+RUN apt-get update
+RUN apt-get install -y
 RUN curl -sL https://deb.nodesource.com/setup_14.x | bash -
-RUN apt-get install nodejs --yes
+RUN apt-get install nodejs
 
 WORKDIR /app
 COPY package*.json ./
