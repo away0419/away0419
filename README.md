@@ -1,13 +1,13 @@
+최종 수정일 : 23.09.05
 # About-LJK
 
-
 ```
-안녕하세요.
-Web back-end engineer 이준경입니다.
+반갑습니다.
+Back-End Engineer 이준경입니다.
+저에 대해 궁금하시다면 사이트를 확인해주세요.
 ```
 
-### portfolio site
-
+### Site
 ```
-http://localhost.com/#/
+https://about-ljk.store/
 ```
