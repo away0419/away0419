@@ -2,6 +2,7 @@ name: portfolio build
 on:
   push:
     branches: ["main"]
+    paths: ["src/**", "public/**", "package*.json", "Dockerfile"]
 
 jobs:
   build:
