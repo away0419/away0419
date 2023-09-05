@@ -30,8 +30,6 @@ jobs:
           port: ${{ secrets.REMOTE_SSH_PORT }}
           script: |
             cd /home/ubuntu/about-me/
-            sudo git pull origin main
-            docker build -t portfolio:1.0 /home/ubuntu/about-me/
-            docker run -m 512m -i -d -p 8080:80 --rm --name portfolio portfolio:1.0 
-            
-            
+            sudo git pull origin main 
+            npm i
+            npm run build
