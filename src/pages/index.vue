@@ -72,9 +72,9 @@
         >
           <Article title="i am" v-show="article.introduction.visible">
             <p class="pb-20" v-html="main.introduction"></p>
-            <s-button @click="downloadResume">
+            <v-btn href="/public/file/LeeJunKyung-resume.pdf" download>
               이력서 다운로드
-            </s-button>
+            </v-btn>
           </Article>
         </transition>
       </article>
@@ -412,8 +412,8 @@ export default {
     },
     downloadResume() {
       const url =
-        "http://bbosongbbosong.com/portfolio/assets/files/SoheeYun-resume.pdf";
-      saveAs(url, "프론트엔드_윤소희_이력서.pdf");
+        "https://about-ljk/portfolio/assets/files/LeeJunKyung-resume.pdf";
+      saveAs(url, "[이력서]이준경.pdf");
     },
     goArticle(article) {
       const positionTop =
