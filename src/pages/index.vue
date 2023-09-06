@@ -72,9 +72,9 @@
         >
           <Article title="i am" v-show="article.introduction.visible">
             <p class="pb-20" v-html="main.introduction"></p>
-            <v-btn href="/public/file/LeeJunKyung-resume.pdf" download>
+            <a class="a-resume" href="/file/LeeJunKyung-resume.pdf" download>
               이력서 다운로드
-            </v-btn>
+            </a>
           </Article>
         </transition>
       </article>
@@ -439,6 +439,19 @@ export default {
   background-size: 16px 16px;
   background-position: center;
   background-repeat: no-repeat;
+}
+.a-resume:link, .a-resume:visited{
+     background-color: #73b9f7;
+     color: $basic-color2;
+     padding: 15px 25px;
+     text-align: center;
+     text-decoration: none;
+     display: inline-block;
+}
+
+.a-resume:hover, .a-resume:active{
+  background-color: $basic-color1;
+  
 }
 
 .main-page-wrap {
