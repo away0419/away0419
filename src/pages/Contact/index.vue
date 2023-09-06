@@ -258,7 +258,7 @@ export default {
       const params = {
         subject: `포트폴리오 보고 연락 드립니다. : ${this.formData.company}`,
         msg: this.setParams(),
-        to: "sul831@naver.com",
+        to: "away0419@naver.com",
       };
 
       axios.interceptors.request.use(

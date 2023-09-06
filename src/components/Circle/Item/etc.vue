@@ -50,6 +50,7 @@ $blocks: 6;
   .wrapper {
     background-size: 80px;
     padding: 2.5rem;
+    border: 0.5rem solid $basic-color4;
   }
   .elem {
     opacity: 1;

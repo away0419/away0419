@@ -32,26 +32,32 @@
         <article class="main-image">
           <img class="image" src="../assets/images/main-image.gif" />
           <div class="about-div">
-            <span class="none-span">(</span><span class="fade-in-span">A</span><span class="none-span">)</span
-            ><span class="none-span">ssorted </span><span class="none-span">(</span
-            ><span class="fade-in-span">B</span><span class="none-span">)</span><span class="none-span">its </span>
-            <span class="none-span">(</span><span class="fade-in-span">O</span><span class="none-span">)</span
-            ><span class="none-span">f </span><span class="none-span">(</span><span class="fade-in-span">U</span
-            ><span class="none-span">)</span><span class="none-span">sher </span><span class="none-span">(</span
+            <span class="none-span">(</span><span class="fade-in-span">A</span
+            ><span class="none-span">)</span
+            ><span class="none-span">ssorted </span
+            ><span class="none-span">(</span><span class="fade-in-span">B</span
+            ><span class="none-span">)</span
+            ><span class="none-span">its </span> <span class="none-span">(</span
+            ><span class="fade-in-span">O</span><span class="none-span">)</span
+            ><span class="none-span">f </span><span class="none-span">(</span
+            ><span class="fade-in-span">U</span><span class="none-span">)</span
+            ><span class="none-span">sher </span><span class="none-span">(</span
             ><span class="fade-in-span">T</span><span class="none-span">)</span
             ><span class="none-span">ransformation = </span>
             <span class="fade-out-span">?</span>
             <span class="fade-in-span-me">ME</span>
-            
+
             <div class="about-content">
               <p class="fade-in-p">"다양한 조각이 모여 혁신을 이끈다."</p>
-              <p>
-                괄호 하나 하나를 모으면 제가 됩니다.<br/>
-                공백 기간 동안 새로운 조각, 즉 다양한 경험을 쌓을 수 있었습니다.<br/>
-                인생의 경험을 통해 혁신적인 기술과 서비스를 이끌어 가는 저를 소개하겠습니다!<br/>
+              <p class="fade-in-p">
+                괄호 하나 하나를 모으면 제가 됩니다.<br />
+                공백 기간 동안 새로운 조각, 즉 다양한 경험을 쌓을 수
+                있었습니다.<br />
+                인생의 경험을 통해 혁신적인 기술과 서비스를 이끌어 가는 저를
+                소개하겠습니다!<br />
               </p>
-              <p class="about-email">away0419@naver.com</p>
-              <p class="about-tel">010-3155-0419</p>
+              <p class="about-email fade-in-p">away0419@naver.com</p>
+              <p class="about-tel fade-in-p">010-3155-0419</p>
             </div>
           </div>
         </article>
@@ -253,8 +259,8 @@
                   다양한 목표를 가진 백엔드 개발자 이준경입니다.
                 </h5>
                 <p>
-                  누구와도 잘 어울리는 밝은 성격,<br/>
-                  도전을 즐기고 새로운 경험을 추구하는 저에게<br/>
+                  누구와도 잘 어울리는 밝은 성격,<br />
+                  도전을 즐기고 새로운 경험을 추구하는 저에게<br />
                   관심이 생기신 분들은 아래 버튼을 눌러주세요 :)
                 </p>
                 <router-link to="/contact">
@@ -267,7 +273,9 @@
                 <ul>
                   <li>
                     <p class="tit">Where i live</p>
-                    <p class="body">Yeongdeungpo-gu, Seoul, Republic of Korea</p>
+                    <p class="body">
+                      Yeongdeungpo-gu, Seoul, Republic of Korea
+                    </p>
                   </li>
                   <li>
                     <p class="tit">Give me a call</p>
@@ -295,7 +303,6 @@ import SButton from "../components/Element/Button/index";
 require("vue2-animate/dist/vue2-animate.min.css");
 import { mapGetters } from "vuex";
 import { VueTypedJs } from "vue-typed-js";
-import { saveAs } from "file-saver";
 import Article from "../components/Article";
 import CardList from "../components/Card/List";
 import CardItem from "../components/Card/Item";
@@ -410,11 +417,6 @@ export default {
         this.article[type].focus = false;
       }
     },
-    downloadResume() {
-      const url =
-        "https://about-ljk/portfolio/assets/files/LeeJunKyung-resume.pdf";
-      saveAs(url, "[이력서]이준경.pdf");
-    },
     goArticle(article) {
       const positionTop =
         article === "Main"
@@ -440,18 +442,19 @@ export default {
   background-position: center;
   background-repeat: no-repeat;
 }
-.a-resume:link, .a-resume:visited{
-     background-color: #73b9f7;
-     color: $basic-color2;
-     padding: 15px 25px;
-     text-align: center;
-     text-decoration: none;
-     display: inline-block;
+.a-resume:link,
+.a-resume:visited {
+  background-color: $basic-color5;
+  color: $basic-color8;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
 }
 
-.a-resume:hover, .a-resume:active{
-  background-color: $basic-color1;
-  
+.a-resume:hover,
+.a-resume:active {
+  background-color: $basic-color4;
 }
 
 .main-page-wrap {
@@ -745,10 +748,8 @@ export default {
   padding-top: 7%;
 
   p {
-    padding-bottom: 3%;
-    font-family: "Noto Serif KR", serif;
+    padding-top: 4%;
     font-size: 20px;
-    font-weight: normal;
   }
 }
 
@@ -786,7 +787,7 @@ export default {
 //   animation-fill-mode: forwards;
 // }
 
-.fade-in-span-me{
+.fade-in-span-me {
   opacity: 0;
   animation-name: fadeIn;
   animation-duration: 1s;
@@ -796,11 +797,11 @@ export default {
   animation-delay: 2.5s;
   animation-fill-mode: forwards;
   color: $basic-color1;
-  position:absolute;
+  position: absolute;
   margin-left: 7px;
 }
 
-.fade-in-p{
+.fade-in-p {
   opacity: 0;
   animation-name: fadeIn;
   animation-duration: 1s;
@@ -994,6 +995,35 @@ export default {
           }
 
           .contact-info {
+          }
+        }
+      }
+    }
+  }
+
+  @media (max-width: 375px) {
+    .main-page-wrap {
+      .main-greeting .typed-element h1 {
+        font-size: 20px;
+      }
+
+      .main-article {
+        &.main-contact {
+          .contact-body {
+            padding-top: 20px;
+
+            .contact-introduction {
+              letter-spacing: -0.5px;
+
+              h5 {
+                font-size: 18px;
+              }
+
+              p {
+                font-size: 14px;
+              }
+            }
+
           }
         }
       }
