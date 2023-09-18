@@ -58,7 +58,7 @@
       "memo": "- WebSocket을 이용한 실시간 통신 <br/>- 이미지 AI 분석 후 부적절한 콘텐츠 필터링 <br/>- 보이어-무어 알고리즘을 이용한 비속어 필터링 </br>- 지역별 한국어, 영어 키워드 분석 후 랭킹 구현 <br/>- 로드 밸런싱 및 RabbitMQ로 메시지 공유 <br/>- Grafana, Prometheus로 서버 모니터링 시각화 <br/>- Jmeter 과부화 테스트 <br/>- Git Branch 별 자동 배포 <br/>- 개발 서버와 배포 서버 동시 운영 <br/>- MSA 구축",
       "link": [
         {
-          "url": "https://www.notioniframe.com/notion/2lac98xdr0t"
+          "url": "https://away0419.notion.site/Beanzido-ae4e8c2c30c245359a574f89474a0c31?pvs=4"
         }
       ]
     },
@@ -95,7 +95,7 @@
       "memo": "- Kakao API를 이용한 소셜 로그인 <br/>- JWT로 개인정보 관련 서비스 사용시 인증 <br/>- Selenium으로 상품, 리뷰 데티어 크롤링 <br/>- 수집 데이터 정제 및 입력 <br/>- 정기, 커스텀 구독 기능 구현 <br/>- 상품, 구독 리뷰 작성 및 조회 기능 구현 <br/>- Python 라이브러리를 이용한 협업 필터링 구현 <br/>- 콜드 스타트 해결을 위한 콘텐츠 필터링 구현 <br/>- Spring Cloud로 API Gateway를 구성하고 MSA 구축 <br/>- Jenkins를 이용한 자동 배포 <br/>- 자주 조회하는 칼럼 피티셔닝 및 캐싱",
       "link": [
         {
-          "url": "https://www.notioniframe.com/notion/1gdckyucdb"
+          "url": "https://away0419.notion.site/1560bab71b9f455c8b3ced1dde4e8ee2?pvs=4"
         }
       ]
     },
@@ -128,7 +128,7 @@
       "memo": "- 회원 역할 별 회원 가입 <br/>- 아동 등록 및 수정 <br/>- 상담사 아동 1:1 상담 방 구현 <br/>- 문진표 확인 후 전문 상담사 추천 기능 구현 <br/>- 문진표 작성 <br/>- 자주 조회하는 정보 캐싱 <br/>- 상담 예약 및 관리 <br/>- 민감한 정보 테이블 분리 및 DB 설계 <br/>- 자동 배포 및 서버 구성",
       "link": [
         {
-          "url": "https://www.notioniframe.com/notion/178ikvba4n8"
+          "url": "https://away0419.notion.site/366d7a47a96a49b48bb9de0b63bc4bd8?pvs=4"
         }
       ]
     },
@@ -165,7 +165,7 @@
       "memo": "- SMTP 이메일 인증 <br/>- FullCalendar 이용한 개인 일정 <br/>- 일정 그룹 체크 박스로 해당 그룹에 포한된 모든 일정 일괄 보임/숨김 구현 <br/>- Excel 업로드로 데이터 입력, 조회 기능 구현 <br/>- 출/퇴근 클릭 시 정보 저장 및 그래프로 시각화 <br/>- 스케줄러를 이용한 자동 퇴근 <br/>- AJAX 활용 <br/>- 관리자 페이지 구현",
       "link": [
         {
-          "url": "https://www.notioniframe.com/notion/2qun9u802yb"
+          "url": "https://away0419.notion.site/IU-4f83052b294c461886f1aee598f21bef?pvs=4"
         }
       ]
     },
