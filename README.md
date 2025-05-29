@@ -2,7 +2,7 @@
   
   <img align="right" height="145px" src="http://mazassumnida.wtf/api/v2/generate_badge?boj=away0419"/>
   
-## 👋 JUN KYUNG 👋 
+### 👋 JUN KYUNG 👋 
   
 
   [![Gmail Badge](https://img.shields.io/badge/Gmail-d14836?style=flat-square&logo=Gmail&logoColor=white&link=mailto:away0419@gmail.com)](away0419@gmail.com) <a href="https://www.notion.so/away0419/202ee07b6dfb801f81decf6d9adf77f2?source=copy_link"><img src="https://img.shields.io/badge/Notion-000000?style=flat-square&logo=Notion&logoColor=white"/></a>
